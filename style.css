@@ -761,12 +761,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
 
 .border-none {
   border-style: none;
+}
+
+.border-color2 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 169 133 / var(--tw-border-opacity));
 }
 
 .border-b-color1 {
@@ -960,4 +969,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:text-\[\#ffff\]:hover {
   color: #ffff;
+}
+
+.focus\:bg-color1:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(145 145 108 / var(--tw-bg-opacity));
+}
+
+.active\:bg-color1:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(145 145 108 / var(--tw-bg-opacity));
 }
